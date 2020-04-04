@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>Blogging about stuffs</description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Apr 2020 22:16:26 +0900</pubDate>
-    <lastBuildDate>Sat, 04 Apr 2020 22:16:26 +0900</lastBuildDate>
+    <link>blog url//</link>
+    <atom:link href="blog url//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 04 Apr 2020 22:23:18 +0900</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2020 22:23:18 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Sun, 10 Nov 2013 19:18:00 +0900</pubDate>
-        <link>http://localhost:4000//thriller/comedy/horror/2013/11/10/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000//thriller/comedy/horror/2013/11/10/welcome-to-jekyll.html</guid>
+        <link>blog url//thriller/comedy/horror/2013/11/10/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">blog url//thriller/comedy/horror/2013/11/10/welcome-to-jekyll.html</guid>
         
         
         <category>Thriller</category>
