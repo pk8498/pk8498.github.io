@@ -1,43 +1,43 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: pk8498/pk8498.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 박혜영
+title: Data & Backend Engineer
+email: hyeyoung8498@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#twitter_username: jekyllrb
+github_username:  pk8498
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: hyeyoung-park-a787731b3
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,60 +50,113 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  **서버 백엔드** 및 **데이터 엔지니어링**에 관심이 많은 8년차 개발자입니다. <br/>
+  스타트업에서 백엔드 엔지니어로 시작해 플랫폼의 AWS 기반 시스템 구축부터 API 개발 데이터 수집/제공까지 여러부분을 경험할 수 있었습니다. <br/>
+  데이터엔지니어로 들어온 서비스 데이터를 수집할 수 있는 환경을 구축하고 가공한 데이터를 분석/마케팅에 활용할 수 있도록 제공하는 부분을 경험했습니다. <br/>
+  개인적으로 프로덕션 환경에서 유지보수 하기 좋은 코드를 고민하는 것을 좋아합니다. 회사 업무를 통해 성취감을 얻어내는 활동을 좋아합니다. <br/>
+  문서쓰는걸 좋아하고, 업무를 투명하게 공유하는것을 좋아합니다. <br />
+  <mark>조직과 팀의 성장</mark>에 대한 많은 고민들을 좋아합니다. <br/>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: TVING
+        sub_title: 데이터 엔지니어
+        caption: 2021.04 ~ 현재
+        link: https://www.tving.com/
         quote: >
-          Short description of the company (optional)
+          국내 종합엔터테인먼트 OTT 플랫폼
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          * 데이터 플랫폼 신규 구축 (AWS 기반 환경) / 운영 유지보수
+          * 데이터 플랫폼 데이터 입수 전체 아키텍처 설계
+          * 데이터 플랫폼 전체 모니터링 시스템 설계 / 구축
+          * 데이터웨어하우스 마트 분석환경 개선 및 서버 운영 유지보수
+          * 데이터웨어하우스 마트 배치 개발 및 중간 테이블 설계 (시청 기반 정산 데이터 지원 및 내부 분석 마트 지원)
+          * 데이터 분석 조직 및 마케팅 파트 지원
+          * 팀 내부 추천 시스템 및 검색 시스템 인프라 지원
+          * 팀 내 플랫폼 엔지니어링 파트 프로젝트 오너 및 플래닝
+          * 테스트 코드 및 코드 규격 정리 및 내부 업무 프로세스/문서화 규격 정리
+      - layout: left
+        title: Anypoint Media
+        sub_title: 백엔드 엔지니어 (광고플랫폼개발팀 - 대리)
+        caption: 2016.09 ~ 2020.08
+        link: https://anypointmedia.com/
+        quote: >
+          국내 및 동남아 지역에 스마트 TV용 솔루션 및 서비스를 제공하는 Ad-Tech 기업
+        description: | # this will include new lines to allow paragraphs
+          * AWS 기반 광고 플랫폼 구축 DevOps 
+          * 광고 플랫폼 디바이스 광고 배정, 타겟팅 유지보수 및 개발
+          * IDC 내 SKB 유무선 통합형 광고 플랫폼 (SK ONE AD, Oksusu) 개발 및 유지보수 (hadoop 기반 노출 적재, 모니터링 시스템 및 API 개발)
+          * 광고 플랫폼 셋톱박스 Push 시스템 인프라 구축 및 운영
+          * 광고 플랫폼 집계 시스템 고도화 및 신규 구축
+          * 광고 플랫폼 사내 BI 시스템 구축 및 운영
+          * 내부 사업부 및 외부 고객사에 광고 지표 추출
+      - layout: left
+        title: EPOZEN
+        sub_title: 백엔드 엔지니어 (인프라 기술개발팀)
+        caption: 2015.11 ~ 2016.08
+        link: http://www.epozen.com/
+        quote: >
+          제조업체 솔루션 개발
+        description: | # this will include new lines to allow paragraphs
+          * 서버 리소스 모니터링 시스템 화면 개발
+          * MES Simulation 시스템 개발
+          * 사내 인턴 교육 진행
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: 광고 플랫폼 집계 시스템 고도화 및 신규 구축
+        sub_title: Anypoint Media
+#        caption: 2015.11 ~ 2016.08
+#        link: http://www.epozen.com/
+        quote: >
+          사내 빅데이터(TV 광고에 대한 노출 및 채䠭 데이터)를 이용한 집계 2.0 시스템을 구축.
+          ETL 시스템 선정 및 데이터 파이프라인 설계, 개발, 배포 및 장애복구 및 모니터링 시스템까지 전반적으
+          로 참여. 구축 후 시스템 운영 및 장애 대응 경험 보유
+        description: | # this will include new lines to allow paragraphs
+          * Apache NiFi 를 이용한 데이터 파이프라인 구축
+          * AWS Glue 및 Crawler 이용한 배치 Workflow 구축
+          * Airbnb Druid 기반의 분석 시스템 구축하여 데이터 조회 성능 향상으로 좀 더 나은 사용자 경험 도출
+          * AWS Lambda를 이용한 서버리스 시스템 모듈 개발 및 구축
+          * AWS Athena 를 활용한 데이터 분석 시스템 구축
+          * 데이터 마이그레이션 및 분석을 통해 기존에 존재하지 않았던 광고 도달 지표(Reach1,2,3) 도출 경험
+          * Kotlin 을 사용한 Spring Boot 기반의 REST API 개발
+          * Tech Stack : <mark>NiFi</mark> <mark>Druid</mark> <mark>AWS Glue</mark> <mark>AWS Lambda</mark> <mark>Serverless</mark> <mark>Kotlin</mark> <mark>Spring Boot</mark> <mark>Rabbit MQ</mark>
+      - layout: left
+        title: 광고 플랫폼 사내 BI 시스템 구축 및 운영
+        sub_title: Anypoint Media
+        quote: >
+          사내 빅데이터를 시각화 하고, 인사이트를 䤒어내기 위해 BI(Business Intelligence) 플랫폼을 설계 및
+          구축하여 사내 사업 부서 및 외부에 다양한 리포트 및 대시보드를 제공
+        description: | # this will include new lines to allow paragraphs
+          * BI 시스템 조사 및 오픈소스인 Redash를 적극적으로 도입하여 사내 시스템에 맞게 커스터마이징하여 구축
+          * 사내에서 사용하고 있는 여러 데이터소스들을 한번에 시각화 할 수 있도록 통합
+          * 사내에서 사용하고 있는 여러 데이터소스들을 한번에 시각화 할 수 있도록 통합
+          * AWS Lambda를 이용한 서버리스 시스템 모듈 개발 및 구축
+          * AWS Athena 를 활용한 데이터 분석 시스템 구축
+          * 데이터 마이그레이션 및 분석을 통해 기존에 존재하지 않았던 광고 도달 지표(Reach1,2,3) 도출 경험
+          * Kotlin 을 사용한 Spring Boot 기반의 REST API 개발
+          * Tech Stack : <mark>NiFi</mark> <mark>Druid</mark> <mark>AWS Glue</mark> <mark>AWS Lambda</mark> <mark>Serverless</mark> <mark>Kotlin</mark> <mark>Spring Boot</mark> <mark>Rabbit MQ</mark>
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: left
+        title: 인하공업전문대학
+        sub_title: 컴퓨터시스템
+        caption: 2013.03 ~ 2016.02
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          (4.25/4.5)
+      - layout: left
+        title: 숭실평생원격교육원
+        sub_title: 컴퓨터공학사인증
+        caption: 2017.02
+        description: | # this will include new lines to allow paragraphs
+          (4.25/4.5)
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
