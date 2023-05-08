@@ -70,7 +70,7 @@ content:
         link: https://www.tving.com/
         quote: >
           국내 종합엔터테인먼트 OTT 플랫폼
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * 데이터 플랫폼 신규 구축 (AWS 기반 환경) / 운영 유지보수
           * 데이터 플랫폼 데이터 입수 전체 아키텍처 설계
           * 데이터 플랫폼 전체 모니터링 시스템 설계 / 구축
@@ -87,7 +87,7 @@ content:
         link: https://anypointmedia.com/
         quote: >
           국내 및 동남아 지역에 스마트 TV용 솔루션 및 서비스를 제공하는 Ad-Tech 기업
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * AWS 기반 광고 플랫폼 구축 DevOps 
           * 광고 플랫폼 디바이스 광고 배정, 타겟팅 유지보수 및 개발
           * IDC 내 SKB 유무선 통합형 광고 플랫폼 (SK ONE AD, Oksusu) 개발 및 유지보수 (hadoop 기반 노출 적재, 모니터링 시스템 및 API 개발)
@@ -102,7 +102,7 @@ content:
         link: http://www.epozen.com/
         quote: >
           제조업체 솔루션 개발
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * 서버 리소스 모니터링 시스템 화면 개발
           * MES Simulation 시스템 개발
           * 사내 인턴 교육 진행
@@ -115,10 +115,10 @@ content:
 #        caption: 2015.11 ~ 2016.08
 #        link: http://www.epozen.com/
         quote: >
-          사내 빅데이터(TV 광고에 대한 노출 및 채䠭 데이터)를 이용한 집계 2.0 시스템을 구축.
+          사내 빅데이터(TV 광고에 대한 노출 및 채널 데이터)를 이용한 집계 2.0 시스템을 구축.
           ETL 시스템 선정 및 데이터 파이프라인 설계, 개발, 배포 및 장애복구 및 모니터링 시스템까지 전반적으
           로 참여. 구축 후 시스템 운영 및 장애 대응 경험 보유
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * Apache NiFi 를 이용한 데이터 파이프라인 구축
           * AWS Glue 및 Crawler 이용한 배치 Workflow 구축
           * Airbnb Druid 기반의 분석 시스템 구축하여 데이터 조회 성능 향상으로 좀 더 나은 사용자 경험 도출
@@ -131,17 +131,90 @@ content:
         title: 광고 플랫폼 사내 BI 시스템 구축 및 운영
         sub_title: Anypoint Media
         quote: >
-          사내 빅데이터를 시각화 하고, 인사이트를 䤒어내기 위해 BI(Business Intelligence) 플랫폼을 설계 및
+          사내 빅데이터를 시각화 하고, 인사이트를 얻어내기 위해 BI(Business Intelligence) 플랫폼을 설계 및
           구축하여 사내 사업 부서 및 외부에 다양한 리포트 및 대시보드를 제공
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * BI 시스템 조사 및 오픈소스인 Redash를 적극적으로 도입하여 사내 시스템에 맞게 커스터마이징하여 구축
           * 사내에서 사용하고 있는 여러 데이터소스들을 한번에 시각화 할 수 있도록 통합
-          * 사내에서 사용하고 있는 여러 데이터소스들을 한번에 시각화 할 수 있도록 통합
-          * AWS Lambda를 이용한 서버리스 시스템 모듈 개발 및 구축
-          * AWS Athena 를 활용한 데이터 분석 시스템 구축
-          * 데이터 마이그레이션 및 분석을 통해 기존에 존재하지 않았던 광고 도달 지표(Reach1,2,3) 도출 경험
-          * Kotlin 을 사용한 Spring Boot 기반의 REST API 개발
-          * Tech Stack : <mark>NiFi</mark> <mark>Druid</mark> <mark>AWS Glue</mark> <mark>AWS Lambda</mark> <mark>Serverless</mark> <mark>Kotlin</mark> <mark>Spring Boot</mark> <mark>Rabbit MQ</mark>
+          * 사업부와 협업하여 데이터 시각화 대시보드 설계
+          * 사내 개발자 및 사업부의 요구사항 수렴하여 Redash와 Zeppelin을 통한 데이터 추출 업무 진행
+          * 사내에서 활발히 사용할 수 있도록 규칙 정의 및 시스템 가이드 배포
+          * Tech Stack : <mark>Redash</mark> <mark>Zeppelin</mark> <mark>AWS EMR</mark> <mark>AWS Glue</mark> <mark>Presto</mark>
+      - layout: left
+        title: SK Broadband, LG U+ 셋톱박스 광고 플랫폼 유지보수 및 광고 배정 기능 개발
+        sub_title: Anypoint Media
+        quote: >
+          셋톱박스 내에 들어가는 광고 에이전트 유지보수 및 개발 작업
+        description: |
+          * C언어로 구현되어 있는 레거시 셋톱박스 에이전트 유지보수 경험
+          * Android(java) 셋톱박스 유지보수 및 추가 개발 경험
+          * 개발 후 각 통신사별 셋톱박스로 직접 테스트 진행 경험
+          * Tech Stack : <mark>C</mark> <mark>Android</mark> <mark>Java</mark> <mark>Android ADB</mark>
+      - layout: left
+        title: SKB 유무선 통합형 광고 플랫폼 (SK ONE AD) 개발 및 유지보수
+        sub_title: Anypoint Media
+        quote: >
+          SK BTV, 모바일 앱(oksusu, Btv Plus), 다윈 등 다양한 매체와 네트워크를 대상으로 동영상 광고를
+          운영하고 노출 실적을 조회 분석할 수 있는 통합형 광고 플랫폼 구축 프로젝트에 백엔드 개발 참여 및 유지보수
+        description: |
+          * Grafana, Prometheus, Graphite를 이용한 모니터링 시스템 프레임워크 조사 및 구축
+          * Spring Cloud Netflix를 이용한 Microservice 기반 유무선 통합형 광고 플랫폼 배정 API 개발
+          * Hadoop Ecosystem 기반 ETL
+            * 광고의 노출 로그를 기반으로 변형, 적재 및 분석
+            * Spring XD 배치 스트림 개발 경험 (광고 로그 기반 데이터 변형 위주의 스트림 개발)
+          * IMDG 기반의 분산 캐시 서버 구축 경험
+            * hazelcast를 이용한 분산 캐시 시스템 구축
+          * Apache Mesos 및 Marathon을 이용하여 Microservice 도커 컨테이너 오케스트레이션 구축, 운영
+          * SK Broadband 요구사항 수렴하여 Zeppelin을 통한 데이터 추출 업무 진행
+          * Tech Stack : <mark>Spring Boot</mark> <mark>Java</mark> <mark>Hazelcast</mark> <mark>Ambari</mark> <mark>Hadoop</mark> <mark>Mesos, Marathon</mark> <mark>Grafana</mark> <mark>Prometheus</mark> <mark>Graphite</mark> <mark>Oracle</mark>
+      - layout: left
+        title: 광고 플랫폼 디바이스 광고 배정, 타겟팅 유지 보수 및 개발
+        sub_title: Anypoint Media
+        quote: >
+          SKB, UPLUS 실시간 TV 광고 플랫폼 유지 보수 및 광고 배정, 타겟팅에 대한 백엔드 API 개발 및 운영
+        description: |
+          * Java 를 사용한 Spring Boot 기반의 REST API 개발 및 유지보수
+          * Tech Stack : <mark>Spring Boot</mark> <mark>Java</mark> <mark>Gradle</mark>
+      - layout: left
+        title: 광고 플랫폼 셋톱박스 Push 시스템 구축 및 운영
+        sub_title: Anypoint Media
+        quote: >
+          광고가 셋톱박스에 실질적으로 나갈 수 있게 해주는 Push 시스템을 구축, 인프라 관리 등 운영 참여
+        description: |
+          * AWS, NCloud, CloudZ 클라우드 환경에서의 시스템 및 운영 경험 보유
+          * 서버에 수백만의 커넥션이 유지될 수 있도록 Mesos, Marathon을 이용한 오토 스케일링 환경 구축 및 Linux 서버 튜닝 경험
+          * Tech Stack : <mark>Spring Boot</mark> <mark>Java</mark> <mark>Gradle</mark> <mark>Netty</mark> <mark>AWS</mark> <mark>NCloud</mark> <mark>CloudZ</mark>
+      - layout: left
+        title: 외 DevOps 업무 경험
+        sub_title: Anypoint Media
+        quote: >
+          사내 CI/CD 등 인프라 구축 및 관리,
+          사내 드라이브 관리 및 협업을 위한 메뉴얼 사이트 정리, 배포.
+          사내 세그먼트 관리 사이트 유지보수 및 기능 추가 등 (vue, 간단 spark ml 활용 등)
+      - layout: left
+        title: 서버 리소스 모니터링 시스템 개발
+        sub_title: EPOZEN
+        quote: >
+          SK Hynix 등 여러 외부업체의 서버 중 사내에䞵 관리하는 서버의 리소스 모니터링 시스템 화면 설계 및 개발
+        description: |
+          * Vaadin을 이용한 사내 서버 리소스 모니터링 대시보드 프론트 개발 경험
+          * Vaadin 프레임워크 선정 참여 및 해당 프레임워크에 대한 가이드 생성하여 배포
+          * 프레임워크 사용 방䢲 및 코드 정리하여 SI 팀에서 사용할 수 있도록 배포
+          * Tech Stack : <mark>Vaddin</mark> <mark>Java</mark> <mark>Maven</mark>
+      - layout: left
+        title: MES Simulation 시스템 개발
+        sub_title: EPOZEN
+        quote: >
+          사내 솔루션 중 하나인 SK Hynix의 반도체 MES에 대한 시뮬레이션 시스템의 프론트 및 백엔드 개발 참여
+        description: |
+          * Java를 사용한 Spring MVC 기반의 REST API 개발
+          * C# 을 이용한 UI 개발
+          * Tech Stack : <mark>Spring MVC</mark> <mark>Java</mark> <mark>C#</mark>
+      - layout: left
+        title: 외 업무 경험
+        sub_title: EPOZEN
+        quote: >
+          기타 사내 인턴 교육 진행 등
   - title: Education
     layout: list
     content:
