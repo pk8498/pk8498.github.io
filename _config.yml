@@ -216,7 +216,7 @@ content:
         description: |
           * Vaadin을 이용한 사내 서버 리소스 모니터링 대시보드 프론트 개발 경험
           * Vaadin 프레임워크 선정 참여 및 해당 프레임워크에 대한 가이드 생성하여 배포
-          * 프레임워크 사용 방䢲 및 코드 정리하여 SI 팀에서 사용할 수 있도록 배포
+          * 프레임워크 사용 방법 및 코드 정리하여 SI 팀에서 사용할 수 있도록 배포
           * Tech Stack : <mark>Vaddin</mark> <mark>Java</mark> <mark>Maven</mark>
       - layout: left
         title: MES Simulation 시스템 개발
